@@ -1,6 +1,6 @@
 .message {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .avatar {
@@ -26,12 +26,12 @@
 .text:before {
     position: absolute;
     content: '';
-    top: 46px;
-    left: -13px;
+    top: 52px;
+    left: -12px;
     width: 0;
     height: 0;
-    border-bottom: 20px solid black;
-    border-left: 20px solid transparent;
+    border-bottom: 15px solid black;
+    border-left: 15px solid transparent;
 }
 
 .text div {
