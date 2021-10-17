@@ -1,7 +1,11 @@
 .someClass {
-
+    display: flex;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.error + div {
+    color: red;
 }
